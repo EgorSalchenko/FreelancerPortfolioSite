@@ -1,0 +1,104 @@
+.benefits {
+
+    &__inner {
+        padding-top: 150px;
+    }
+
+    &__text-line {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__text-left {
+        max-width: 477px;
+    }
+
+    &__subtitle {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        padding-bottom: 12px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 60px;
+        letter-spacing: -0.5px;
+        text-transform: capitalize;
+    }
+
+    &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 180%;
+        display: flex;
+        align-items: flex-end;
+        max-width: 395px;
+    }
+
+    &__line {
+        margin-top: 56px;
+        display: flex;
+        gap: 148px;
+    }
+
+    &__line-item {
+        display: flex;
+        max-width: 290px;
+        & img{
+            padding-bottom: 70px;
+            margin-right: 15px;
+        }
+        &:nth-child(2){
+            // padding: 0 74px;
+            position: relative;
+        }
+        &:nth-child(1){
+            // padding-right: 74px;
+        }
+        &:nth-child(3){
+            // padding-left: 74px;
+        }
+        &:nth-child(2)::after{
+            height: 100px;
+            width: 1px;
+            border: 1px solid #FFFFFF;
+            background-color: #fff;
+            content: '';
+            right: 125%;
+            position: absolute;
+            top: 25px;
+        }
+        &:nth-child(2)::before{
+            height: 100px;
+            width: 1px;
+            border: 1px solid #FFFFFF;
+            background-color: #fff;
+            content: '';
+            left: 125%;
+            position: absolute;
+            top: 25px;
+        }
+    }
+
+    &__line-text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 180%;
+        margin-top: 9px;
+    }
+
+    &__line-title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 23px;
+        text-transform: capitalize;
+    }
+
+    &__line-subtitle {
+        margin-top: 9px;
+    }
+}
