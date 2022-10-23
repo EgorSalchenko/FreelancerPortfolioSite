@@ -1,0 +1,39 @@
+a{
+    color: inherit;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Cerebri Sans', sans-serif;
+    &.lock{
+        overflow: hidden;
+    }
+}
+
+
+.wrapper{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 16px;
+    line-height: 100%;
+    font-weight: 500;
+    background-color: #040F28;
+    color: #FFFFFF;
+    overflow: hidden;
+    min-height: 100vh;
+}
+.header{
+    background-repeat: no-repeat;
+    background-image: url('../../img/bgi-lines1.svg'), url('../../img/bgi-lines2.svg');
+    background-position: 0% 0%, 100% -500%
+}
+.container{
+    max-width: 1240px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
