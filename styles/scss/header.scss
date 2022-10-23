@@ -1,0 +1,65 @@
+.header {
+
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 98px;
+        padding-top: 33px;
+        margin-bottom: 38px;
+    }
+
+    &__logo {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+
+        color: #C4C4C4;
+    }
+
+    &__nav {
+    }
+    &__container{
+        max-width: 1141px;
+    }
+    &__burger{
+        width: 30px;
+        height: 20px;
+        position: relative;
+    }
+}
+.nav {
+
+    &__list li a{
+        text-decoration: none;
+    }
+    &__list {
+        display: flex;
+        gap: 50px;
+    }
+
+    &__item {
+        margin-top: 10px;
+    }
+
+    &__item-link {
+        font-family: 'Ubuntu';
+        font-size: 16px;
+        line-height: 18px;
+        color: #646464;
+
+        &:hover{
+            color: #C4C4C4;
+        }
+        &-reg{
+            color: #FFFFFF;
+            padding: 16px 32px;
+            border: 2px solid #C4C4C4;
+            border-radius: 87px;
+            font-family: 'DM Sans';
+            font-size: 16px;
+            line-height: 21px;
+        }
+    }
+}
