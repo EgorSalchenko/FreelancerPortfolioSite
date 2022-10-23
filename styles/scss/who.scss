@@ -1,0 +1,43 @@
+.who {
+
+    &__inner {
+        display: flex;
+    }
+
+    &__text {
+        padding-top: 90px;
+    }
+
+    &__title {
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 74px;
+        text-transform: capitalize;
+        color: #C4C4C4;
+    }
+
+    &__subtitle {
+        font-weight: 400;
+        line-height: 32px;
+        color: #646464;
+        padding-bottom: 56px;
+    }
+
+    &__link {
+        background: #FC3867;
+        border-radius: 87px;
+        padding: 16px 32px;
+        line-height: 180%;
+        font-family: 'DM Sans';
+        text-decoration: none;
+        &:hover{
+            background: #b62b4cc8;  
+        }
+    }
+
+    &__img {
+        margin-left: 157px;
+    }
+}
