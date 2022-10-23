@@ -1,0 +1,45 @@
+.subscribe-line {
+    margin-top: 127px;
+}
+.subscribe {
+
+		&__inner {
+            padding-top: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+		}
+
+		&__subtitle {
+            font-family: 'Cerebri Sans';
+            font-style: normal;
+            font-weight: 600;
+            line-height: 20px;
+            color: #C4C4C4;
+            margin-bottom: 12px;
+		}
+
+		&__title {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 64px;
+            color: #212226;
+            margin-bottom: 27px;
+            text-align: center;
+		}
+        &__link{
+            background: #FC3867;
+            border: 0px solid;
+            color: #FFFFFF;
+            margin-bottom: 40px;
+            &:hover{
+                background: rgba(182, 43, 76, 0.7843137255);
+                margin-bottom: 40px;
+            }
+        }
+}
+.card {
+
+		&__link {
+		}
+}
